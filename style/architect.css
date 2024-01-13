@@ -1,6 +1,74 @@
 /* work sans font by using impor  */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,900;1,700&family=Open+Sans:wght@400;600;700&family=Work+Sans:wght@400;600;700&display=swap');
 
+/* COMMON SHARED STYLES */
 * {
     font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+    width: 180px;
+    height: 64px;
+    border: 0;
+    border-radius: 8px;
+    background: #FF900E; 
+}
+
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: #131313;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    margin-right: 25px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav li a {
+    color: #424242;
+    text-decoration: none;
+}
+
+/* banner section */
+.banar-contant {
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    color: #131313;
+
+    font-weight: 700PX;
+    font-size: 4rem;
+    font-style: normal;
+}
+
+.banner-description {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400PX;
+}
+.banar img{
+    max-width: 700px;
+   
+    margin: 0 auto;
 }
